@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "Microsoft.AspNetCore.OpenApi/10.0.1": {
@@ -35,6 +35,42 @@
           "lib/net8.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Peets.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Peets.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Peets.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Peets.Application.dll": {}
+        }
+      },
+      "Peets.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Peets.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Peets.Domain.dll": {}
+        }
+      },
+      "Peets.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Peets.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Peets.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Peets.Infrastructure.dll": {}
         }
       }
     }
@@ -75,11 +111,29 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Peets.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Peets.Application/Peets.Application.csproj",
+      "msbuildProject": "../../Peets.Application/Peets.Application.csproj"
+    },
+    "Peets.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Peets.Domain/Peets.Domain.csproj",
+      "msbuildProject": "../Peets.Domain/Peets.Domain.csproj"
+    },
+    "Peets.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Peets.Infrastructure/Peets.Infrastructure.csproj",
+      "msbuildProject": "../Peets.Infrastructure/Peets.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.1"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.1",
+      "Peets.Application >= 1.0.0",
+      "Peets.Domain >= 1.0.0",
+      "Peets.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -113,8 +167,19 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Repos\\peets\\Backend\\Peets.Application\\Peets.Application.csproj": {
+              "projectPath": "E:\\Repos\\peets\\Backend\\Peets.Application\\Peets.Application.csproj"
+            },
+            "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Peets.Domain.csproj": {
+              "projectPath": "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Peets.Domain.csproj"
+            },
+            "E:\\Repos\\peets\\Backend\\src\\Peets.Infrastructure\\Peets.Infrastructure.csproj": {
+              "projectPath": "E:\\Repos\\peets\\Backend\\src\\Peets.Infrastructure\\Peets.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -127,10 +192,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
@@ -157,7 +223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
