@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Peets.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2bd8b2a5677ed9afca1bd61dfc705fe1ff4a76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e0256d712cd72968668cb731499c29d0be481b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Peets.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Peets.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
