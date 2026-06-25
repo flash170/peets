@@ -114,8 +114,8 @@
     },
     "Peets.Application/1.0.0": {
       "type": "project",
-      "path": "../../Peets.Application/Peets.Application.csproj",
-      "msbuildProject": "../../Peets.Application/Peets.Application.csproj"
+      "path": "../Peets.Application/Peets.Application.csproj",
+      "msbuildProject": "../Peets.Application/Peets.Application.csproj"
     },
     "Peets.Domain/1.0.0": {
       "type": "project",
@@ -170,8 +170,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "E:\\Repos\\peets\\Backend\\Peets.Application\\Peets.Application.csproj": {
-              "projectPath": "E:\\Repos\\peets\\Backend\\Peets.Application\\Peets.Application.csproj"
+            "E:\\Repos\\peets\\Backend\\src\\Peets.Application\\Peets.Application.csproj": {
+              "projectPath": "E:\\Repos\\peets\\Backend\\src\\Peets.Application\\Peets.Application.csproj"
             },
             "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Peets.Domain.csproj": {
               "projectPath": "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Peets.Domain.csproj"
