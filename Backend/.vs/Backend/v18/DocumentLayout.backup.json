@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Repos\\peets\\Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F55F4CC-F227-4A15-A1EE-0417CC339DEC}|src\\Peets.Application\\Peets.Application.csproj|e:\\repos\\peets\\backend\\src\\peets.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F55F4CC-F227-4A15-A1EE-0417CC339DEC}|src\\Peets.Application\\Peets.Application.csproj|solutionrelative:src\\peets.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70F3641-7807-47CA-A31E-12A7BC8590FD}|src\\Peets.Domain\\Peets.Domain.csproj|e:\\repos\\peets\\backend\\src\\peets.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70F3641-7807-47CA-A31E-12A7BC8590FD}|src\\Peets.Domain\\Peets.Domain.csproj|solutionrelative:src\\peets.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{914EC310-00DE-4AA5-A73A-2F14EC786460}|src\\Peets.Infrastructure\\Peets.Infrastructure.csproj|e:\\repos\\peets\\backend\\src\\peets.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{914EC310-00DE-4AA5-A73A-2F14EC786460}|src\\Peets.Infrastructure\\Peets.Infrastructure.csproj|solutionrelative:src\\peets.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -20,8 +33,43 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Repos\\peets\\Backend\\src\\Peets.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Peets.Application\\Class1.cs",
+              "ToolTip": "E:\\Repos\\peets\\Backend\\src\\Peets.Application\\Class1.cs",
+              "RelativeToolTip": "src\\Peets.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:46:09.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Peets.Domain\\Class1.cs",
+              "ToolTip": "E:\\Repos\\peets\\Backend\\src\\Peets.Domain\\Class1.cs",
+              "RelativeToolTip": "src\\Peets.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:11:41.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Repos\\peets\\Backend\\src\\Peets.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Peets.Infrastructure\\Class1.cs",
+              "ToolTip": "E:\\Repos\\peets\\Backend\\src\\Peets.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "src\\Peets.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:09:02.744Z",
+              "EditorCaption": ""
             }
           ]
         }
